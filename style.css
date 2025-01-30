@@ -324,3 +324,17 @@ h3 {
         content: "Deadlines:";
     }
 }
+.course-description {
+    margin-bottom: 15px; /* Adds spacing between paragraphs */
+    line-height: 1.6; /* Improves readability */
+}
+
+.ok-text {
+    color: green;
+    font-weight: bold;
+}
+
+.not-ok-text {
+    color: red;
+    font-weight: bold;
+}

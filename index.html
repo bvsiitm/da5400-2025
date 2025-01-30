@@ -53,16 +53,31 @@
                 </ul>
                 <br>
                 <li><b>Grading Policy</b>:</li>
-                <ul>
-                    <li>📖 <b>Quiz 1 & Quiz 2</b>: 25%</li>
-                    <li>📝 <b>End-Sem Exam</b>: 50%</li>
-                    <li>📚 <b>Assignments</b>: 25% (Not for submission)
-                        <br>
-                        <small>Assignments will be provided throughout the semester but are <b>not</b> required for submission. 
-                        A selection of questions from the assignments will appear in <b>Quiz 1, Quiz 2, and the End-Sem Exam</b>, 
-                        collectively contributing to a total weightage of 25%.</small>
-                    </li>
-                </ul>
+        <ul>
+            <li>📖 <b>Quiz 1 & Quiz 2</b>: 25%</li>
+            <li>📝 <b>End-Sem Exam</b>: 50%</li>
+            <li>📚 <b>Assignments</b>: 25% (Not for submission)
+            <br>
+            <small>Assignments will be provided throughout the semester but are <b>not</b> required for submission. 
+            A selection of questions from the assignments will appear in <b>Quiz 1, Quiz 2, and the End-Sem Exam</b>, 
+            collectively contributing to a total weightage of 25%.</small>
+            </li>
+            <li><b>Final Grade Cutoffs</b>:</li>
+            <ul>
+            <li>S: ≥ 90</li>
+            <li>A: ≥ 80</li>
+            <li>B: ≥ 70</li>
+            <li>C: ≥ 60</li>
+            <li>D: ≥ 50</li>
+            <li>E: ≥ 40</li>
+            </ul>
+            <li>While minor adjustments (typically by 1–2 points) to the above cutoffs may be made, given that the course has over 100 students, 
+            it is inevitable that some students may miss a grade boundary by < 1 mark. Unfortunately, this is an inherent aspect of the grading system, 
+            and no exceptions can be made in such cases.</li>
+            <li>Students are strongly encouraged to focus on performing their best throughout the course and in the exams, 
+            rather than requesting leniency in grades after results are announced.</li>
+            </ul>
+
                 <br>
                 <li><b>Course Forum</b>: We will be having a Discord channel for the course very soon. Students should ask <i>all</i> course-related questions on the channel. 
                     Course-related announcements will also be made on the Discord channel.</li>
@@ -92,72 +107,45 @@
         <div class="container sec" id="overview" style="margin-top:-20px"><br>
             <h2>Overview</h2>
             <h3><i class="fas fa-bolt"></i> What is this course about?</h3>
-            <p>
-                This course aims to provide an iterative framework for developing real-world machine learning systems
-                that are deployable, reliable, and scalable.<br><br>
-
-                It starts by considering all stakeholders of each machine learning project and their objectives.
-                Different objectives require different design choices, and this course will discuss the tradeoffs of
-                those choices.<br><br>
-
-                Students will learn about data management, data engineering, feature engineering, approaches to model
-                selection, training, scaling, how to continually monitor and deploy changes to ML systems, as well as
-                the human side of ML projects such as team structure and business metrics. In the process, students will
-                learn about important issues including privacy, fairness, and security.
-                <br>
+            <p class="course-description">
+                <b>Foundations of Machine Learning (DA5400)</b> is an introductory course designed to provide a strong conceptual foundation in <em>classical</em> machine learning.
             </p>
-
-            <h3><i class="fas fa-bullseye"></i> Why machine learning systems design?</h3>
-            <p>
-                Machine learning systems design is the process of defining the software architecture, infrastructure,
-                algorithms, and data for a machine learning system to satisfy specified requirements.<br><br>
-
-                The tutorial approach has been tremendously successful in getting models off the ground. However, the
-                resulting systems tend to go outdated quickly because (1) the tooling space is being innovated, (2)
-                business requirements change, and (3) data distributions constantly shift. Without an intentional design
-                to hold all the components together, a system will become technical liability, prone to errors and quick
-                to fall apart.
+            <p class="course-description">
+                The course covers fundamental algorithms, including regression, classification, decision trees, ensemble methods, support vector machines, clustering, 
+                and dimensionality reduction, with a focus on their mathematical formulation and theoretical underpinnings.
             </p>
+            <p class="course-description">
+                Emphasis is placed on understanding core principles rather than implementation, making it ideal for students seeking a rigorous, algorithmic perspective on machine learning. 
+            </p>
+            <p class="course-description">
+                While deep learning is not a focus, the course equips students with the necessary background to pursue more advanced studies in areas such 
+                as deep learning, probabilistic modeling, and modern AI techniques.
+            </p>
+            
 
             <h3><i class="fas fa-cogs"></i> Prerequisites</h3>
             <p>Students are expected to have the following background:</p>
             <ul>
-                <li>Knowledge of basic computer science principles and skills, at a level sufficient to write a
-                    reasonably non-trivial computer program (e.g., CS106B/X or equivalent).</li>
-                <li>Good understanding of machine learning algorithms (e.g. at least one of CS229, CS230, CS231N, CS224N
-                    or equivalent). </li>
-                <li>Familiar with at least one framework such as TensorFlow, PyTorch, JAX.</li>
-                <li>Familiarity with basic probability theory (CS109 or Stat116 or equivalent is sufficient but not
-                    necessary). </li>
+                <li>Knowledge of basic programming, at a level sufficient to write a
+                    reasonably non-trivial computer program, ideally in Python.</li>
+                <li>An undergraduate level understanding of Linear Algebra, Probability, and Multivariable Calculus. </li>
+                <li>Lack of fear of Mathematics or Programming</li>
             </ul>
 
             <h3 id="honor-code"><i class="fas fa-eye"></i> Honor Code</h3>
-            <p>Permissive but strict. If unsure, please ask the course staff!</p>
+            <p>Permissive but strict. If unsure, please ask!</p>
             <ul>
-                <li>OK to search, ask in public about the systems we’re studying. Cite all the resources you
-                    reference.<br>
-                    E.g. if you read it in a paper, cite it. If you ask on Quora, include the link.</li>
-                <li>NOT OK to ask someone to do assignments/projects for you.</li>
-                <li>OK to discuss questions with classmates. Disclose your discussion partners.</li>
-                <li>NOT OK to copy solutions from classmates.</li>
-                <li>OK to use existing solutions as part of your projects/assignments. Clarify your contributions.</li>
-                <li>NOT OK to pretend that someone’s solution is yours.</li>
-                <li>OK to publish your final project after the course is over (we encourage that!)</li>
-                <li>NOT OK to post your assignment solutions online.</li>
+                <li> Attendance is <b>mandatory</b>. <span class="not-ok-text">NOT OK</span> to skip classes for non-medical reasons.</li>
+                <li><span class="ok-text">OK</span> to use Gen AI tools or the internet to solve Exercise problems given in the course. </li>
+                <li><span class="not-ok-text">NOT OK</span> to copy during the exams. This will lead to immediate referral to the Disciplinary committee and a U grade in the course.</li>
             </ul>
+            
 
             <h3 id="honor-code" id="audit"><i class="fas fa-user-plus"></i> Audit policy</h3>
-            <p>We’re open to auditing requests by Stanford students and staff. You will be able to attend all the
-                lectures, but we won't be able to grade your homework or give advice on final projects. Our human
-                resources are limited. To audit the class, please send cs329s-win2022-staff@lists.stanford.edu an email
-                with the subject title "CS329S: Audit Request" with a few sentences introducing yourself and your
-                relevant background.
-            <p>
+            <p>Anyone who wishes to drop the course, but sit through the classes is welcome to.
 
-            <p>Because the course is in-person on campus, external requests will not be considered.</p>
-
-            <p>The slides, (very intensive) notes, assignments, and final project instructions will be made publicly
-                available on the Syllabus page.
+            <p>The slides, codes, assignments, will be made publicly
+                available on the Syllabus page. But this depends on the time I have to do so. Please always take notes in class and do not depend on me uploading them. 
 
             <h3><i class="fas fa-book"></i> Reference Text</h3>
             <p>

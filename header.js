@@ -16,7 +16,7 @@ document.write('\
 \
           <ul class="nav navbar-nav navbar-right">\
               <li><a href="index.html#overview">Overview</a></li>\
-              <li><a href="syllabus.html">Syllabus</a></li>\
+              <li><a href="material.html">Material</a></li>\
               <li><a href="index.html#faq">FAQ</a></li>\
           </ul>\
       </div>\

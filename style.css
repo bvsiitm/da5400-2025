@@ -259,71 +259,64 @@ h3 {
 /* Handle formatting on mobile */
 
 @media (max-width: 767px) {
-    .navbar-default .navbar-collapse>ul>li {
-        width: 100%;
-        text-align: left;
-    }
-    /* Force table to not be like tables anymore */
-    table,
-    thead,
-    tbody,
-    th,
-    td,
-    tr {
+    /* Force table to behave like a list */
+    table, thead, tbody, th, td, tr {
         display: block;
     }
-    /* Hide table headers (but not display: none;, for accessibility) */
+
+    /* Hide table headers */
     thead tr {
         position: absolute;
         top: -9999px;
         left: -9999px;
     }
+
     /* Make each row look like a card */
     table tr {
         margin-bottom: 20px;
         border-bottom: 2px solid #ddd;
         box-shadow: 2px 2px 1px #dadada;
     }
+
     tr {
         border: 1px solid #ccc;
     }
-    /* Behave  like a "row" */
+
+    /* Behave like a "row" */
     td {
         border: none;
         border-bottom: 1px solid #eee;
         position: relative;
         padding-left: 50%;
     }
-    /* Position table header as data labels */
-    td:before {
-        top: 6px;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-    }
-    /* Label the data */
-    #schedule td:nth-of-type(1) {
-        font-weight: 500;
-    }
+
+    /* Label the data correctly */
     #schedule td:nth-of-type(1):before {
-        content: "Date:";
-        font-weight: 300;
+        content: "S.No:";
+        font-weight: bold;
     }
-    #schedule td:nth-of-type(2) {
-        font-weight: 500;
-    }
+
     #schedule td:nth-of-type(2):before {
-        content: "Description:";
-        font-weight: 300;
+        content: "Date:";
+        font-weight: bold;
     }
+
+    #schedule td:nth-of-type(3):before {
+        content: "Topic(s):";
+        font-weight: bold;
+    }
+
     #schedule td:nth-of-type(4):before {
-        content: "Events:";
+        content: "Material:";
+        font-weight: bold;
     }
+
     #schedule td:nth-of-type(5):before {
-        content: "Deadlines:";
+        content: "Other Resources:";
+        font-weight: bold;
     }
 }
+
 .course-description {
     margin-bottom: 15px; /* Adds spacing between paragraphs */
     line-height: 1.6; /* Improves readability */
